@@ -47,6 +47,7 @@ CREATE TABLE book_authors (
 );
 """)
 
+
 # 3) Execute the SQL sentences to insert your data using the SQLAlchemy's execute function
 engine.execute("""
 INSERT INTO publishers(publisher_id, name) VALUES (1, 'O Reilly Media');
